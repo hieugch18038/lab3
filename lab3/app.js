@@ -14,6 +14,7 @@ const app = http.createServer((req, res) => {
     res.write("<h2>I am learning NodeJS</h2>");
     res.write(
       "<h3>My web page has been deployed to Heroku successfully !</h3>");
+    res.write("<h3>test nodemon</h3>")
     res.end();
 })
 //B4 chay web
